@@ -1,0 +1,22 @@
+.recipes .row {
+    gap: 50px;
+}
+.recipes .recipe {
+    width: calc((100% - 50px) / 4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    box-shadow: 3px 3px 10px 1px #666262;
+    text-align: center;
+    background-color: tan;
+}
+.recipes .recipe h2 {
+    margin: 20px 7px 0;
+}
+.recipes .recipe img {
+    width: 100%;
+    height: 250px;
+}
